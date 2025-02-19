@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolodbolod Seventh-Day Adventist Church Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/slsu logo.png">
+   
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/pcm.png"></a>
+            <div class="nav-links" id="navLinks">
+                <p class="myicon" onclick="hideMenu()"><b>x</b></p>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <p class="myiconm" onclick="showMenu()">MENU</p>
+        </nav>
+    <h1>College</h1>
+    </div>
+    </section>
+
+<!-- About Us Content -->
+    <section class="about-us">
+        <div class="row"> 
+        <div class="about-col">
+            <h1>My Classmates</h1>
+            <p> Mga College na Pero naa gihapoy inner child.
+                 <br> But even with that all of us are Brilliant.
+                 <br>Enjoying Life kay usa ra ni.
+            </p>
+          
+        </div>
+        <div class="about-col">
+            <img src="image/classmates.jpg">
+        </div>
+    </div>
+    </section>
+
+
+<!-- java Script for menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
