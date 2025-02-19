@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolodbolod Seventh-Day Adventist Church Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image//slsu logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/pcm.png"></a>
+            <div class="nav-links" id="navLinks">
+                <p class="myicon" onclick="hideMenu()"><b>x</b></p>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <p class="myiconm" onclick="showMenu()">MENU</p>
+        </nav>
+   <h1>Contact Us</h1>
+    </section>
+
+    <!-- contact us -->
+
+    <section class="location">
+         
+        <div class="location-col">
+            <img src="image/Map.png" width="1000" height="500">
+        </div>
+    
+    </section>
+  
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <!-- insert logo here -->
+                    <span>
+                        <h5>SAN JUAN CAMPUS </h5>
+                        <p>San Jose, San Juan, Southern Leyte</p>
+                    </span>
+                </div>
+                <div>
+                    <!-- insert logo here -->
+                        <span>
+                            <h5>Website: www.southernleytestateu.edu.ph</h5>
+                            <p>Monday-Friday, 8AM to 6PM</p>
+                        </span>
+                    </div>
+                <div>
+                        <!-- insert logo here -->
+                            <span>
+                                <h5>Email: infotech_sj@southernleytestateu.edu.ph</h5>
+                                <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+ 
+
+
+<!-- java Script for menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
